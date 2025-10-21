@@ -1,0 +1,116 @@
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    text-align: center;
+    color: red;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+
+.video-section {
+    text-align: center;
+}
+
+
+.bio {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+ img {
+    width: 400;
+    height: 300px;
+    border-radius: 20px;
+    border: 2px solid lightblue;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+    padding-left: 40px;
+    color: lightblue;
+}
+
+ul {
+    padding-left: 60px;
+    color: white;
+}
+
+
+table {
+    width: 40%;            
+    margin: 20px 0 0 0;    
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+}
+
+th, td {
+    border: 1px solid white;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+th {
+    background-color: lightblue;
+    color: black;
+}
+
+
+tr:hover {
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* Formulario */
+form {
+    margin-top: 20px;
+}
+
+form input[type="text"] {
+    padding: 8px;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+}
+
+form input[type="submit"] {
+    background-color: lightblue;
+    color: black;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+
+
+footer a {
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a
+{
+    background: greenyellow;
+}
